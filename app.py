@@ -1,13 +1,13 @@
 import streamlit as st
 
 # Tiêu đề của ứng dụng web
-st.title("Ứng dụng Tính Lãi Tiền Gửi 💰")
-st.markdown("So sánh giữa **Lãi Đơn** và **Lãi Kép**")
+st.title("Ứng dụng Tính Lãi Tiền Gửi Của ... 💰")
+st.markdown("So sánh giữa **Lỡn đai** và **Lép kãi**")
 
 st.divider()
 
 # Tạo form nhập liệu
-st.subheader("Nhập thông tin gửi tiền")
+st.subheader("Nhập số tiền gửi")
 # Sử dụng number_input thay cho input()
 a = st.number_input("Nhập số tiền khách hàng gửi (VNĐ):", min_value=0.0, step=1000000.0, format="%.2f")
 b = st.number_input("Nhập số tháng khách hàng gửi:", min_value=0.0, step=1.0, format="%.0f")
